@@ -1,0 +1,3 @@
+POST /AM.JPG
+POST /b.txt
+GET /a.txt
