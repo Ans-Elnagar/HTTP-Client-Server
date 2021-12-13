@@ -1,6 +1,6 @@
 # HTTP-Client-Server
 Client and Server implementation with C++. Exchanging HTTP requests and responses
-#How server works: <Multi-threaded>
+# How server works: <Multi-threaded>
   The server starts with reserving the port that is
 supposed to run on in the main thread. Then the main
 thread waits for clients to start the connection. For every
@@ -31,7 +31,7 @@ waits for more request on this socket until a timeout
 occurs or the client closes the connection from its side
 then the thread closes its socket and terminate.
 
-#How client works:
+# How client works:
 The client starts with connecting to the server and
 opens the file requests.txt to get the requests from it. For
 every request in the requests.txt file, the client composes
