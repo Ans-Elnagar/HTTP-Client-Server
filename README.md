@@ -1,4 +1,4 @@
-# HTTP-Client-Server-C-
+# HTTP-Client-Server
 Client and Server implementation with C++. Exchanging HTTP requests and responses
 #How server works: <Multi-threaded>
   The server starts with reserving the port that is
